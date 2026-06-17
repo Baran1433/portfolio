@@ -92,7 +92,7 @@ function DraggableFloatingCard() {
   useEffect(() => {
     const loader = new GLTFLoader();
     loader.load(
-      "/assets/kartu.glb",
+      `${import.meta.env.BASE_URL}assets/kartu.glb`,
       (loaded) => setGltf(loaded),
       undefined,
       () => setGltf(null)
@@ -100,7 +100,7 @@ function DraggableFloatingCard() {
 
     const textureLoader = new TextureLoader();
     textureLoader.load(
-      "/assets/bandd.png",
+      `${import.meta.env.BASE_URL}assets/bandd.png`,
       (loaded) => setTexture(loaded),
       undefined,
       () => setTexture(null)

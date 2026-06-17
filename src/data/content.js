@@ -48,11 +48,11 @@ export const skills = [
 export const projects = [
   {
     id: 1,
-    image: "/assets/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202026-06-14%20223558.png",
+    image: `${import.meta.env.BASE_URL}assets/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202026-06-14%20223558.png`,
     screenshots: [
-      "/assets/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202026-06-14%20223558.png",
-      "/assets/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202026-06-14%20223740.png",
-      "/assets/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202026-06-14%20223807.png",
+      `${import.meta.env.BASE_URL}assets/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202026-06-14%20223558.png`,
+      `${import.meta.env.BASE_URL}assets/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202026-06-14%20223740.png`,
+      `${import.meta.env.BASE_URL}assets/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202026-06-14%20223807.png`,
     ],
     tags: ["html", "css", "js", "json"],
     github: "https://github.com/baranucar/kibris-rehberim",
@@ -64,12 +64,12 @@ export const projects = [
   },
   {
     id: 2,
-    image: "/assets/halisaha-1.png",
+    image: `${import.meta.env.BASE_URL}assets/halisaha-1.png`,
     screenshots: [
-      "/assets/halisaha-1.png",
-      "/assets/halisaha-2.png",
-      "/assets/halisaha-3.png",
-      "/assets/halisaha-4.png",
+      `${import.meta.env.BASE_URL}assets/halisaha-1.png`,
+      `${import.meta.env.BASE_URL}assets/halisaha-2.png`,
+      `${import.meta.env.BASE_URL}assets/halisaha-3.png`,
+      `${import.meta.env.BASE_URL}assets/halisaha-4.png`,
     ],
     tags: ["flutter", "html", "js", "css"],
     github: "https://github.com/baranucar/hali-saha-randevu",
@@ -81,12 +81,12 @@ export const projects = [
   },
   {
     id: 3,
-    image: "/assets/portfolio-1.png",
+    image: `${import.meta.env.BASE_URL}assets/portfolio-1.png`,
     screenshots: [
-      "/assets/portfolio-1.png",
-      "/assets/portfolio-2.png",
-      "/assets/portfolio-3.png",
-      "/assets/portfolio-4.png",
+      `${import.meta.env.BASE_URL}assets/portfolio-1.png`,
+      `${import.meta.env.BASE_URL}assets/portfolio-2.png`,
+      `${import.meta.env.BASE_URL}assets/portfolio-3.png`,
+      `${import.meta.env.BASE_URL}assets/portfolio-4.png`,
     ],
     tags: ["html", "css", "js", "package.json"],
     github: "https://github.com/baranucar/personal-portfolio",
@@ -141,7 +141,7 @@ export const certificates = [
   {
     id: "webinar-certificate",
     type: "image",
-    image: "/assets/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202026-06-15%20071929.png",
+    image: `${import.meta.env.BASE_URL}assets/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202026-06-15%20071929.png`,
     title: { tr: "Full Stack Developer Webinar Sertifikası", en: "Full Stack Developer Webinar Certificate" },
     issuer: { tr: "Talentcoders", en: "Talentcoders" },
     year: "2025",
@@ -149,7 +149,7 @@ export const certificates = [
   {
     id: "code-genius-certificate",
     type: "image",
-    image: "/assets/WhatsApp%20Image%202026-02-25%20at%2019.31.34.jpeg",
+    image: `${import.meta.env.BASE_URL}assets/WhatsApp%20Image%202026-02-25%20at%2019.31.34.jpeg`,
     title: { tr: "Code Genius Sertifikası", en: "Code Genius Certificate" },
     issuer: { tr: "Code Genius", en: "Code Genius" },
     year: "2026",
@@ -157,7 +157,7 @@ export const certificates = [
   {
     id: "gamejam-medal",
     type: "image",
-    image: "/assets/ChatGPT%20Image%2015%20Haz%202026%2008_41_44.png",
+    image: `${import.meta.env.BASE_URL}assets/ChatGPT%20Image%2015%20Haz%202026%2008_41_44.png`,
     title: { tr: "GameJam Yarışması Madalyası", en: "GameJam Competition Medal" },
     issuer: { tr: "GameJam", en: "GameJam" },
     year: "2026",

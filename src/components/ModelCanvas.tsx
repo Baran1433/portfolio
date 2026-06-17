@@ -10,7 +10,7 @@ import {
 import { Suspense, useEffect, useMemo, useRef, useState } from "react";
 import * as THREE from "three";
 
-const MODEL_PATH = "/models/scene.glb";
+const MODEL_PATH = `${import.meta.env.BASE_URL}models/scene.glb`;
 
 useGLTF.preload(MODEL_PATH);
 

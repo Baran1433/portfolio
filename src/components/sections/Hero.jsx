@@ -107,7 +107,7 @@ export function Hero() {
             <div className="relative">
               {!imgError ? (
                 <div className="hero-avatar-wrapper relative w-[280px] h-[280px] sm:w-[300px] sm:h-[300px]">
-                  <img src="/assets/profile.jpg" alt={t("hero.name")} onError={() => setImgError(true)} className="hero-avatar rounded-full object-cover w-full h-full" draggable={false} />
+                  <img src={import.meta.env.BASE_URL + "assets/profile.jpg"} alt={t("hero.name")} onError={() => setImgError(true)} className="hero-avatar rounded-full object-cover w-full h-full" draggable={false} />
                 </div>
               ) : (
                 <div className="hero-avatar-wrapper relative w-[280px] h-[280px] sm:w-[300px] sm:h-[300px]">
