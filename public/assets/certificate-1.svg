@@ -1,0 +1,14 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" rx="40" fill="#0F172A"/>
+  <rect x="60" y="60" width="680" height="480" rx="32" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.15" stroke-width="3"/>
+  <rect x="120" y="120" width="560" height="64" rx="12" fill="#ffffff" fill-opacity="0.18"/>
+  <rect x="120" y="208" width="420" height="24" rx="8" fill="#ffffff" fill-opacity="0.18"/>
+  <rect x="120" y="250" width="560" height="16" rx="8" fill="#ffffff" fill-opacity="0.12"/>
+  <rect x="120" y="280" width="520" height="16" rx="8" fill="#ffffff" fill-opacity="0.12"/>
+  <rect x="120" y="310" width="450" height="16" rx="8" fill="#ffffff" fill-opacity="0.12"/>
+  <rect x="120" y="340" width="500" height="16" rx="8" fill="#ffffff" fill-opacity="0.12"/>
+  <circle cx="640" cy="420" r="72" fill="#2563EB" fill-opacity="0.95"/>
+  <path d="M590 420C590 395.49 610.49 375 635 375C659.51 375 680 395.49 680 420C680 444.51 659.51 465 635 465C610.49 465 590 444.51 590 420Z" fill="#fff"/>
+  <path d="M617.5 412.5L632.5 427.5L687.5 372.5" stroke="#0F172A" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M560 485L635 420L710 485" stroke="#ffffff" stroke-width="16" stroke-linecap="round"/>
+</svg>

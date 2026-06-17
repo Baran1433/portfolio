@@ -1,0 +1,25 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1024' height='1024' viewBox='0 0 1024 1024'>
+  <defs>
+    <linearGradient id='g1' x1='0' x2='1'>
+      <stop offset='0' stop-color='#7c3aed'/>
+      <stop offset='1' stop-color='#06b6d4'/>
+    </linearGradient>
+    <filter id='blur' x='-50%' y='-50%' width='200%' height='200%'>
+      <feGaussianBlur stdDeviation='20' result='b'/>
+      <feMerge>
+        <feMergeNode in='b'/>
+        <feMergeNode in='SourceGraphic'/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width='100%' height='100%' rx='128' fill='#050816'/>
+  <g transform='translate(512,360)'>
+    <circle r='220' fill='url(#g1)' opacity='0.12' filter='url(#blur)' />
+    <circle r='200' fill='#0b1120' stroke='rgba(255,255,255,0.02)' stroke-width='2'/>
+    <text x='0' y='20' font-family='Arial, Helvetica, sans-serif' font-size='220' fill='#e6e6f8' font-weight='700' text-anchor='middle' alignment-baseline='middle'>AB</text>
+  </g>
+  <g transform='translate(512,740)'>
+    <rect x='-300' y='-70' width='600' height='140' rx='70' fill='rgba(255,255,255,0.02)' />
+    <rect x='-260' y='-50' width='520' height='100' rx='50' fill='transparent' stroke='rgba(124,58,237,0.12)' />
+  </g>
+</svg>

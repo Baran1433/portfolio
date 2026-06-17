@@ -1,0 +1,14 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" rx="40" fill="#0F172A"/>
+  <rect x="60" y="60" width="680" height="480" rx="32" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.15" stroke-width="3"/>
+  <rect x="120" y="120" width="560" height="64" rx="12" fill="#ffffff" fill-opacity="0.18"/>
+  <rect x="120" y="208" width="420" height="24" rx="8" fill="#ffffff" fill-opacity="0.18"/>
+  <rect x="120" y="250" width="560" height="16" rx="8" fill="#ffffff" fill-opacity="0.12"/>
+  <rect x="120" y="280" width="520" height="16" rx="8" fill="#ffffff" fill-opacity="0.12"/>
+  <rect x="120" y="310" width="450" height="16" rx="8" fill="#ffffff" fill-opacity="0.12"/>
+  <rect x="120" y="340" width="500" height="16" rx="8" fill="#ffffff" fill-opacity="0.12"/>
+  <circle cx="400" cy="440" r="62" fill="#22C55E" fill-opacity="0.95"/>
+  <path d="M360 422C360 403.088 375.088 388 394 388C412.912 388 428 403.088 428 422C428 440.912 412.912 456 394 456C375.088 456 360 440.912 360 422Z" fill="#fff"/>
+  <path d="M404 396L427 420L454 393" stroke="#0F172A" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M325 485L394 420L463 485" stroke="#ffffff" stroke-width="16" stroke-linecap="round"/>
+</svg>
